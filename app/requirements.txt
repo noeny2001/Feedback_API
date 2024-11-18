@@ -1,0 +1,7 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+sqlalchemy==2.0.0
+asyncpg==0.26.0  # If you're using PostgreSQL asynchronously
+psycopg2==2.9.6  # For synchronous PostgreSQL
+pydantic==1.10.9
+python-dotenv

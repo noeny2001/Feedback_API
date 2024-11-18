@@ -1,0 +1,191 @@
+{
+    "decode_error": {
+        "detail_type": "Invalid token",
+        "msg": "Invalid token",
+        "reason": "Invalid token",
+        "status_code": 401
+    },
+    "exception_error": {
+        "detail_type": "error",
+        "msg": "exception error",
+        "reason": "An error occurred: {error_msg}",
+        "status_code": 500
+    },
+    "expire_error": {
+        "detail_type": "Expired Token",
+        "msg": "Token has expired",
+        "reason": "Token has expired",
+        "status_code": 401
+    },
+    "analytics_not_found_error": {
+        "detail_type": "Not Found",
+        "msg": "Not Found",
+        "reason": "Not Found",
+        "status_code": 404
+    },
+    "api_key_not_found_error": {
+        "detail_type": "Not Found",
+        "msg": "No API key found",
+        "reason": "No API key found",
+        "status_code": 404
+    },
+    "login_not_found_error": {
+        "detail_type": "Not Found",
+        "msg": "User does not exist",
+        "reason": "The user is not registered with us",
+        "status_code": 404
+    },
+    "login_unauthorised_error": {
+        "detail_type": "Unauthorized",
+        "msg": "Incorrect Password",
+        "reason": "User password is not matching with us.",
+        "status_code": 401
+    },
+    "sign_up_mismatch_error": {
+        "detail_type": "Already Registered",
+        "msg": "User is already registered with us",
+        "reason": "User is already registered with us",
+        "status_code": 409
+    },
+    "sign_up_password_mismatch_error": {
+        "detail_type": "Mismatch",
+        "msg": "Password and confirm password do not match",
+        "reason": "Password and confirm password do not match",
+        "status_code": 400
+    },
+    "user_not_found_error": {
+        "detail_type": "User Not Found",
+        "msg": "User Not Found",
+        "reason": "User Not Found",
+        "status_code": 404
+    },
+    "group_name_missing_error": {
+        "detail_type": "UNPROCESSABLE ENTITY",
+        "msg": "Name is missing",
+        "reason": "Name parameter is missing",
+        "status_code": 422
+    },
+    "group_permission_missing_error": {
+        "detail_type": "UNPROCESSABLE ENTITY",
+        "msg": "permission is missing",
+        "reason": "permission parameter is missing",
+        "status_code": 422
+    },
+    "group_not_found_error": {
+        "detail_type": "Not Found",
+        "msg": "Group not found",
+        "reason": "Group not found",
+        "status_code": 404
+    },
+    "group_id_missing_error": {
+        "detail_type": "UNPROCESSABLE ENTITY",
+        "msg": "group id is missing",
+        "reason": "group id parameter is missing",
+        "status_code": 422
+    },
+    "group_user_unauthorised_error": {
+        "detail_type": "UNAUTHORIZED",
+        "msg": "Admin cannot be deleted",
+        "reason": "Admin cannot be deleted",
+        "status_code": 401
+    },
+    "member_group_id_not_found_error": {
+        "detail_type": "Not Found",
+        "msg": "Group ID does not exist",
+        "reason": "Group ID does not exist",
+        "status_code": 404
+    },
+    "member_exist_error": {
+        "detail_type": "Conflict",
+        "msg": "Member already exists",
+        "reason": "Member with this email already exists",
+        "status_code": 409
+    },
+    "member_id_missing_error": {
+        "detail_type": "UNPROCESSABLE ENTITY",
+        "msg": "member id is missing",
+        "reason": "member id parameter is missing",
+        "status_code": 422
+    },
+    "member_not_found_error": {
+        "detail_type": "Not Found",
+        "msg": "Member Not Found",
+        "reason": "Member Not Found",
+        "status_code": 404
+    },
+    "member_forbidden_error": {
+        "detail_type": "FORBIDDEN",
+        "msg": "You can only delete other members of your business",
+        "reason": "You can only delete other members of your business",
+        "status_code": 403
+    },
+    "member_delete_forbidden_error": {
+        "detail_type": "FORBIDDEN",
+        "msg": "You don't have privileges to delete a member",
+        "reason": "You don't have privileges to delete a member",
+        "status_code": 403
+    },
+    "member_update_forbidden_error": {
+        "detail_type": "FORBIDDEN",
+        "msg": "You don't have privileges to update a member",
+        "reason": "You don't have privileges to update a member",
+        "status_code": 403
+    },
+    "member_conflict_error": {
+        "detail_type": "Conflict",
+        "msg": "This member can't be deleted as it is set as Default, first set someone else as default",
+        "reason": "This member can't be deleted as it is set as Default, first set someone else as default",
+        "status_code": 409
+    },
+    "no_data_found_error": {
+        "detail_type": "Not Found",
+        "msg": "No Data found",
+        "reason": "No Data found",
+        "status_code": 404
+    },
+    "invalid_old_password_error": {
+        "detail_type": "UNAUTHORISED",
+        "msg": "Invalid old password",
+        "reason": "Invalid old password",
+        "status_code": 401
+    },
+    "invalid_token_error": {
+        "detail_type": "UNAUTHORISED",
+        "msg": "Invalid token",
+        "reason": "Invalid token",
+        "status_code": 401
+    },
+    "timezone_not_found_error": {
+        "detail_type": "Not Found",
+        "msg": "Timezone not found",
+        "reason": "Timezone not found",
+        "status_code": 404
+    },
+    "language_not_found_error": {
+        "detail_type": "Not Found",
+        "msg": "Language not found",
+        "reason": "Language not found",
+        "status_code": 404
+    },
+    "Unsupported_media_type": {
+        "detail_type": "Unsupported media type",
+        "msg": "Unsupported media type",
+        "reason": "Unsupported media type",
+        "status_code": 415
+    },
+
+    "Unprocessable_Entity": {
+        "detail_type": "Unprocessable Entity",
+        "msg": "Datasource not found",
+        "reason": "Datasource not found",
+        "status_code": 415
+    },
+    "Service_Unavailable": {
+    "detail_type": "Service Unavailable",
+    "msg": "Service is stopped",
+    "reason": "The server is currently stopped",
+    "status_code": 503
+}
+
+
+}
